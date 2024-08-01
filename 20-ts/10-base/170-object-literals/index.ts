@@ -1,5 +1,7 @@
-import * as http from "http";
-
+/**
+ * [RU: Object, Array, Tuple](https://scriptdev.ru/guide/019/)
+ * [EN: Everyday Types/Object Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#object-types)
+ */
 (
     () => {
 

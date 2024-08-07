@@ -2,14 +2,14 @@
 
 Полный курс по Typescript + React
 
-Введение
+Введение  
 9. [Про этот курс](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/9)  
 10. [Как проходить данный курс](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/10)  
 11. [Про закрытый чат, редакторы кода, материалы и ссылки + конспект по TS](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/11)  
 12. [Дополнительно: настройка рабочего пространства](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/12)  
 13. [Дополнительно: Установка автоматического форматирования](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/13)  
 
-Typescript. Базовые знания
+Typescript. Базовые знания  
 14. [Что такое TypeScript и зачем он нужен](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/14)  
 15. [Установка TS и запуск файлов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/15)  
 16. [Базовые типы: строка, число, логическое значение](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/16)  
@@ -30,7 +30,7 @@ Typescript. Базовые знания
 31. [Объектные литералы и аннотации функций](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/31)  
 32. [Проверка знаний](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/32)  
 
-Typescript. Необходимый уровень
+Typescript. Необходимый уровень  
 33. [Более продвинутый Type и пересечение типов (Intersection)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/33)  
 34. [Интерфейсы (Interfaces)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/34)  
 35. [Type или Interface?](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/35)  

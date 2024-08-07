@@ -40,4 +40,18 @@ Typescript. Необходимый уровень
 39. [(д) Оператор Non-Null and Non-Undefined](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/39)
 40. [Модификаторы свойств: readonly (Property Modifiers)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/40)
 41. [Enums](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/41)
+42. [Проблемы использования Enum](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/42)
 4. []()
+
+## Настройка WebStorm
+
+![settings-webstorm-ts.png](settings%2Fwebstorm%2Fsettings-webstorm-ts.png)
+````text
+-------------------------------------------------------------------------------
+Name              :    note-21-ts
+Node inpreter     :    /home/ivan/.nvm/versions/node/v21.7.1/bin/node
+Node parameters   :    --require ts-node/register
+Working directory :    ~/zim/work/github-ZVanoZ/ts-react-petrichenko
+JavaScript file   :    $FilePath$
+-------------------------------------------------------------------------------
+````

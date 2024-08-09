@@ -1,6 +1,12 @@
 # О лекции
 
 Тип Unknown
+````text
+Тип Unknown является типобезопасным аналогом типа any и представлен в виде 
+литерала unknown. 
+Все типы совместимы с типом unknown, в то время как сам тип unknown совместим 
+только с самим собой и типом any.
+````
 
 [Лекция](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/43)
 

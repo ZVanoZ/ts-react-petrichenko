@@ -43,17 +43,29 @@ Typescript. Необходимый уровень
 42. [Проблемы использования Enum](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/42)  
 43. [Тип Unknown](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/43)  
 44. [Запросы типов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/44)  
+45. [Практика](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/45)  
 4. []()  
 
 ## Настройка WebStorm
 
-![settings-webstorm-ts.png](settings%2Fwebstorm%2Fsettings-webstorm-ts.png)
+![settings-webstorm-ts.png](settings%2Fwebstorm%2Fsettings-webstorm-ts.png)                   
 ````text
 -------------------------------------------------------------------------------
-Name              :    node-21-ts
-Node inpreter     :    /home/ivan/.nvm/versions/node/v21.7.1/bin/node
-Node parameters   :    --require ts-node/register
-Working directory :    ~/zim/work/github-ZVanoZ/ts-react-petrichenko
-JavaScript file   :    $FilePath$
+Name              :    node-21-ts                                             : 
+Node inpreter     :    /home/ivan/.nvm/versions/node/v21.7.1/bin/node         : 
+Node parameters   :    --require ts-node/register                             : 
+Working directory :    ~/zim/work/github-ZVanoZ/ts-react-petrichenko          : 
+JavaScript file   :    $FilePath$                                             : Текущий файл в редакторе IDE. 
+                  :                                                           : Перед запуском нужно активировать таб с редактором.
+-------------------------------------------------------------------------------
+````
+[Список подстановок, которые предусмотрены в IDE](https://www.jetbrains.com/help/objc/built-in-macros.html)
+````text
+-------------------------------------------------------------------------------
+-- для опции "JavaScript file"
+$FilePath$                        The absolute path to the current file.
+$FilePathRelativeToProjectRoot$   The path to the current file relative to the module's content root.
+$FilePrompt$                      Shows the file system dialog to select the file.
+$FileRelativePath$                The path to the current file relative to the module's content root.
 -------------------------------------------------------------------------------
 ````

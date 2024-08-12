@@ -42,6 +42,7 @@ Typescript. Необходимый уровень
 41. [Enums](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/41)  
 42. [Проблемы использования Enum](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/42)  
 43. [Тип Unknown](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/43)  
+44. [Запросы типов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/44)  
 4. []()  
 
 ## Настройка WebStorm

@@ -44,6 +44,7 @@ Typescript. Необходимый уровень
 43. [Тип Unknown](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/43)  
 44. [Запросы типов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/44)  
 45. [Практика](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/45)  
+46. [Утверждение типов (Type Assertions)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/46)  
 4. []()  
 
 ## Настройка WebStorm

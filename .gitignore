@@ -1,9 +1,7 @@
-/node_modules/
-/tmp/
-.idea
+**/node_modules/**
+**/tmp/**
+**/.idea/**
 *.js
 *.map
 
-# Коммитим lock файл чтобы была возможность восстанавливать те версии, что были на момент коммита
-# package-lock.json
 

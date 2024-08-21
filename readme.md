@@ -46,8 +46,8 @@ Typescript. Необходимый уровень
 45. [Практика](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/45)  
 46. [Утверждение типов (Type Assertions)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/46)  
 47. [Немного про “внутренние” типы и приведение типов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/47)  
+48. [Type Guard](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/48)  
  
-
 ## Настройка WebStorm
 
 ![settings-webstorm-ts.png](settings%2Fwebstorm%2Fsettings-webstorm-ts.png)                   

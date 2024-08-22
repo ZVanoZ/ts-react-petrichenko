@@ -48,6 +48,7 @@ Typescript. Необходимый уровень
 47. [Немного про “внутренние” типы и приведение типов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/47)  
 48. [Type Guard](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/48)  
 49. [Кейс использования never](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/49)  
+50. [Перегрузка функций](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/50)  
  
 ## Настройка WebStorm
 

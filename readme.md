@@ -49,6 +49,7 @@ Typescript. Необходимый уровень
 48. [Type Guard](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/48)  
 49. [Кейс использования never](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/49)  
 50. [Перегрузка функций](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/50)  
+51. [Разделение интерфейсов на правильные части](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/51)  
  
 ## Настройка WebStorm
 
@@ -66,10 +67,25 @@ JavaScript file   :    $FilePath$                                             : 
 [Список подстановок, которые предусмотрены в IDE](https://www.jetbrains.com/help/objc/built-in-macros.html)
 ````text
 -------------------------------------------------------------------------------
+
+-- для опции Working directory
+-- !!! @TODO: разобраться как использовать подстановочные переменные для этой опции
+$ContentRoot$                     The path to the content root to which the current file belongs.
+$FileDir$                         The absolute path to the directory that contains the current file.
+$FileDirName$                     ??? The name of the directory that contains the current file.
+$FileDirPathFromParent(dir)$      The path to the directory that contains the current file relative to a parent directory specified as the parameter dir.
+$FileDirRelativeToProjectRoot$    The path to the directory that contains the current file relative to the module's content root.
+$FileParentDir$                   The name of the parent directory to the directory where the current file is located.
+$FileRelativeDir$                 The path to the directory where the current file is located relative to the module's content root.
+$ModuleFileDir$                   The absolute path to the directory where the current module file is located.
+$ProjectFileDir$                  The absolute path to the current project directory.
+$Projectpath$                     The current project's source path.
+
 -- для опции "JavaScript file"
 $FilePath$                        The absolute path to the current file.
 $FilePathRelativeToProjectRoot$   The path to the current file relative to the module's content root.
 $FilePrompt$                      Shows the file system dialog to select the file.
 $FileRelativePath$                The path to the current file relative to the module's content root.
+
 -------------------------------------------------------------------------------
 ````

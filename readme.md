@@ -50,6 +50,7 @@ Typescript. Необходимый уровень
 49. [Кейс использования never](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/49)  
 50. [Перегрузка функций](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/50)  
 51. [Разделение интерфейсов на правильные части](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/51)  
+52. [Практика создания type guard и правильных интерфейсов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/52)  
  
 ## Настройка WebStorm
 

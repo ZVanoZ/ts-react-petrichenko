@@ -51,6 +51,7 @@ Typescript. Необходимый уровень
 50. [Перегрузка функций](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/50)  
 51. [Разделение интерфейсов на правильные части](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/51)  
 52. [Практика создания type guard и правильных интерфейсов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/52)  
+53. [Работа с DOM](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/53)  
  
 ## Настройка WebStorm
 

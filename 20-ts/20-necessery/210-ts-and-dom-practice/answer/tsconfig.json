@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+//    "inlineSourceMap": true,
+//-- Создание файла с интерфейсами
+//    "declaration" : true,    // Создание *.d.ts
+//    "declarationMap": true,  // Создание *.d.ts.map
+//
+    "explainFiles": true,
+    "pretty": true,
+    "diagnostics": true,
+    "extendedDiagnostics": true
+  }
+}

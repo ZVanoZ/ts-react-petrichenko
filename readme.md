@@ -53,6 +53,7 @@ Typescript. Необходимый уровень
 52. [Практика создания type guard и правильных интерфейсов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/52)  
 53. [Работа с DOM](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/53)
 54. [Практика работы с DOM](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/54)
+55. [(д) Использование void внутри TS](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/55)
  
 ## Настройка WebStorm
 

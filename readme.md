@@ -2,6 +2,8 @@
 
 Полный курс по Typescript + React
 
+---
+
 Введение  
 9. [Про этот курс](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/9)  
 10. [Как проходить данный курс](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/10)  
@@ -9,7 +11,12 @@
 12. [Дополнительно: настройка рабочего пространства](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/12)  
 13. [Дополнительно: Установка автоматического форматирования](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/13)  
 
+---
+
 Typescript. Базовые знания  
+
+[10-base](20-ts/10-base)
+
 14. [Что такое TypeScript и зачем он нужен](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/14)  
 15. [Установка TS и запуск файлов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/15)  
 16. [Базовые типы: строка, число, логическое значение](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/16)  
@@ -30,7 +37,12 @@ Typescript. Базовые знания
 31. [Объектные литералы и аннотации функций](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/31)  
 32. [Проверка знаний](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/32)  
 
-Typescript. Необходимый уровень  
+---
+
+Typescript. Необходимый уровень
+
+[20-necessery](20-ts/20-necessery)
+
 33. [Более продвинутый Type и пересечение типов (Intersection)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/33)  
 34. [Интерфейсы (Interfaces)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/34)  
 35. [Type или Interface?](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/35)  
@@ -54,10 +66,22 @@ Typescript. Необходимый уровень
 53. [Работа с DOM](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/53)
 54. [Практика работы с DOM](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/54)
 55. [(д) Использование void внутри TS](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/55)
- 
+56. [Проверка знаний №2 | TypeScript + React](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/56)
+
+---
+
+Typescript. Generics and type manipulations
+
+[30-generics-manipulation](20-ts/30-generics-manipulation)
+
+57. [Введение в этот модуль](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/57)
+58. [Generics (Обобщения),что это и зачем нужно](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/58)
+
+---
+
 ## Настройка WebStorm
 
-![settings-webstorm-ts.png](settings%2Fwebstorm%2Fsettings-webstorm-ts.png)                   
+![settings-webstorm-ts.png](settings/webstorm/settings-webstorm-ts.png)                   
 ````text
 -------------------------------------------------------------------------------
 Name              :    node-21-ts                                             : 

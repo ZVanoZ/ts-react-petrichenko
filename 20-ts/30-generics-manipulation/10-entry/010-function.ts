@@ -33,8 +33,10 @@
         }
 
         processedDataGeneric(123);                     // processedDataGeneric/typeof data: number 123
+        processedDataGeneric<number>(123);             // processedDataGeneric/typeof data: number 123
         processedDataGeneric('some-string');           // processedDataGeneric/typeof data: string some-string
         processedDataGeneric(true);                    // processedDataGeneric/typeof data: boolean true
+        processedDataGeneric<boolean>(true);           // processedDataGeneric/typeof data: boolean true
         processedDataGeneric(['Hello', 'world', '!']); // processedDataGeneric/typeof data: object [ 'Hello', 'world', '!' ]
         processedDataGeneric(new Date());                   // processedDataGeneric/typeof data: object 2024-09-17T05:46:58.733Z
         const

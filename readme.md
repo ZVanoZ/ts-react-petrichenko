@@ -76,6 +76,7 @@ Typescript. Generics and type manipulations
 
 57. [Введение в этот модуль](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/57)
 58. [Generics (Обобщения),что это и зачем нужно](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/58)
+59. [Generics functions](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/59)
 
 ---
 

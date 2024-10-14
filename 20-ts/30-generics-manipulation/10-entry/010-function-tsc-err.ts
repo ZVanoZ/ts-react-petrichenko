@@ -29,7 +29,10 @@
             return data;
         }
 
-        const strVal = '10'
-        const now=  processedDataGeneric<number>(strVal); // error TS2345: Argument of type 'string' is not assignable to parameter of type 'number'.
+        // Ошибка: generic ожидает number, а передаем string
+        processedDataGeneric<number>('123'); // error TS2345: Argument of type 'string' is not assignable to parameter of type 'number'.
+
+        // Ошибка: generic возвращает number, а сохранить пытаемся в string
+        let num1: string = processedDataGeneric<number>(123); //  error TS2322: Type 'number' is not assignable to type 'string'.
     }
 )();

@@ -1,10 +1,11 @@
 ## Содержание
 
-Полный курс по Typescript + React
+**Полный курс по Typescript + React**
 
 ---
 
-Введение  
+**Введение**
+
 9. [Про этот курс](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/9)  
 10. [Как проходить данный курс](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/10)  
 11. [Про закрытый чат, редакторы кода, материалы и ссылки + конспект по TS](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/11)  
@@ -13,7 +14,7 @@
 
 ---
 
-Typescript. Базовые знания  
+**Typescript. Базовые знания**
 
 [10-base](20-ts/10-base)
 
@@ -33,13 +34,14 @@ Typescript. Базовые знания
 27. [Union (Объединение)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/27)  
 28. [Сужение типов (Narrowing)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/28)  
 29. [Примитивные литеральные типы (Literal types)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/29)  
-30. [Псевдонимы типов (Type aliases)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/30)  
-31. [Объектные литералы и аннотации функций](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/31)  
+30. [Псевдонимы типов (Type aliases)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/30)    
+[160-type-aliases/index.ts](./20-ts/10-base/160-type-aliases/index.ts)
+32. [Объектные литералы и аннотации функций](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/31)  
 32. [Проверка знаний](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/32)  
 
 ---
 
-Typescript. Необходимый уровень
+**Typescript. Необходимый уровень**
 
 [20-necessery](20-ts/20-necessery)
 
@@ -70,13 +72,17 @@ Typescript. Необходимый уровень
 
 ---
 
-Typescript. Generics and type manipulations
+**Typescript. Generics and type manipulations**
 
 [30-generics-manipulation](20-ts/30-generics-manipulation)
 
 57. [Введение в этот модуль](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/57)
-58. [Generics (Обобщения),что это и зачем нужно](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/58)
-59. [Generics functions](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/59)
+58. [Generics (Обобщения),что это и зачем нужно](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/58)   
+[readme.md](20-ts/30-generics-manipulation/10-entry/readme.md)
+59. [Generics functions](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/59)  
+[readme.md](20-ts/30-generics-manipulation/20-generics-functions/readme.md)
+60. [Generics types and interfaces, constraints](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/60)  
+[readme.md](./20-ts/30-generics-manipulation/30-generics-types-interfaces-constraints/readme.md)
 
 ---
 

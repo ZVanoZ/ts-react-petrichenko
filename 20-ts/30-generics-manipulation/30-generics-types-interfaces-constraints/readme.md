@@ -34,7 +34,7 @@ type UserStringNumber = UserTemplate<string, number>;
 ```
 
 * Можно указать объединение (union)  
-[010-generic-type.ts](010-generic-type.ts)
+[020-generic-helper-type.ts](020-generic-helper-type.ts)
 
 ```typescript
 // Объявление
@@ -47,23 +47,31 @@ const oneNumber  : OneOrMany<number> = 33;
 const manyNumber : OneOrMany<number> = [33, 34];
 ```
 
-* Можно описывать generic классы. В том числе с указанием базового класса.
-Это делается через extends.
-[010-generic-type.ts](010-generic-type.ts)
-```typescript
-interface UserI<TParents extends ParentsI> {
-    login: string;
-    parents: TParents;
-}
-```
-
 * Можно использовать generic-union для объявления параметра в generic-функции 
 Это делается через extends. 
-  [010-generic-type.ts](010-generic-type.ts)
+[030-generic-function.ts](030-generic-function.ts)
 ```typescript
 // Пример 1. union на месте
 const depositMoneyFn1 = <TAmount extends number|string>(amount : TAmount):void=>{}
 // Пример 2. union вынесен в отдельный тип данных
 type AmountUnion = number|string;
 const depositMoneyFn2 = <TAmount extends AmountUnion>(amount : TAmount):void=>{}
+```
+
+* Можно создать интерфейс generic-функции
+[030-generic-function-interface.ts](030-generic-function-interface.ts)
+```typescript
+interface MyFunctionInterface<T1, TResult> {
+    (param1: T1): TResult;
+}
+```
+
+* Можно описывать generic классы. В том числе с указанием базового класса.
+  Это делается через extends.
+  [040-generic-interface-extends.ts](040-generic-interface-extends.ts)
+```typescript
+interface UserI<TPerson extends PersonI> {
+    login: string;
+    person: TPerson;
+}
 ```

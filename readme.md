@@ -6,11 +6,11 @@
 
 **Введение**
 
-9. [Про этот курс](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/9)  
-10. [Как проходить данный курс](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/10)  
-11. [Про закрытый чат, редакторы кода, материалы и ссылки + конспект по TS](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/11)  
-12. [Дополнительно: настройка рабочего пространства](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/12)  
-13. [Дополнительно: Установка автоматического форматирования](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/13)  
+9. [Про этот курс](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/9)
+10. [Как проходить данный курс](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/10)
+11. [Про закрытый чат, редакторы кода, материалы и ссылки + конспект по TS](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/11)
+12. [Дополнительно: настройка рабочего пространства](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/12)
+13. [Дополнительно: Установка автоматического форматирования](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/13)
 
 ---
 
@@ -18,26 +18,26 @@
 
 [10-base](20-ts/10-base)
 
-14. [Что такое TypeScript и зачем он нужен](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/14)  
-15. [Установка TS и запуск файлов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/15)  
-16. [Базовые типы: строка, число, логическое значение](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/16)  
-17. [Использование системы типов в функциях](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/17)  
-18. [Специальный тип any](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/18)  
-19. [Практика типизации кода](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/19)  
-20. [Тип never](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/20)  
-21. [Типы null и undefined](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/21)  
-22. [(д) Редкие примитивные типы bigint, symbol](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/22)  
-23. [Типизация объектов и деструктуризация](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/23)  
-24. [Типизация массивов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/24)  
-25. [Практика типизации кода](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/25)  
-26. [Tuples (Кортежи)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/26)  
-27. [Union (Объединение)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/27)  
-28. [Сужение типов (Narrowing)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/28)  
-29. [Примитивные литеральные типы (Literal types)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/29)  
+14. [Что такое TypeScript и зачем он нужен](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/14)
+15. [Установка TS и запуск файлов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/15)
+16. [Базовые типы: строка, число, логическое значение](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/16)
+17. [Использование системы типов в функциях](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/17)
+18. [Специальный тип any](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/18)
+19. [Практика типизации кода](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/19)
+20. [Тип never](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/20)
+21. [Типы null и undefined](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/21)
+22. [(д) Редкие примитивные типы bigint, symbol](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/22)
+23. [Типизация объектов и деструктуризация](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/23)
+24. [Типизация массивов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/24)
+25. [Практика типизации кода](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/25)
+26. [Tuples (Кортежи)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/26)
+27. [Union (Объединение)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/27)
+28. [Сужение типов (Narrowing)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/28)
+29. [Примитивные литеральные типы (Literal types)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/29)
 30. [Псевдонимы типов (Type aliases)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/30)    
     [src](./20-ts/10-base/160-type-aliases/index.ts)
-32. [Объектные литералы и аннотации функций](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/31)  
-32. [Проверка знаний](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/32)  
+32. [Объектные литералы и аннотации функций](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/31)
+32. [Проверка знаний](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/32)
 
 ---
 
@@ -49,7 +49,7 @@
     [src](./20-ts/20-necessery/010-intersection)
 35. [Интерфейсы (Interfaces)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/34)  
     [src](./20-ts/20-necessery/020-interface)
-36. [Type или Interface?](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/35)  
+36. [Type или Interface?](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/35)
 37. [Практика работы с интерфейсами и типами](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/36)  
     [src](./20-ts/20-necessery/030-practice)
 38. [Механизм вывода типов (Type Inference)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/37)
@@ -76,10 +76,10 @@
     [src](./20-ts/20-necessery/140-type-casting)
 48. [Type Guard](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/48)
     [src](./20-ts/20-necessery/190-practice-typeguard-interfaces)
-49. [Кейс использования never](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/49)  
-50. [Перегрузка функций](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/50)  
-51. [Разделение интерфейсов на правильные части](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/51)  
-52. [Практика создания type guard и правильных интерфейсов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/52)  
+49. [Кейс использования never](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/49)
+50. [Перегрузка функций](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/50)
+51. [Разделение интерфейсов на правильные части](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/51)
+52. [Практика создания type guard и правильных интерфейсов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/52)
 53. [Работа с DOM](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/53)
 54. [Практика работы с DOM](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/54)
 55. [(д) Использование void внутри TS](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/55)
@@ -93,19 +93,22 @@
 
 57. [Введение в этот модуль](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/57)
 58. [Generics (Обобщения),что это и зачем нужно](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/58)   
-[readme.md](20-ts/30-generics-manipulation/10-entry/readme.md)
+    [readme.md](20-ts/30-generics-manipulation/10-entry/readme.md)
 59. [Generics functions](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/59)  
-[readme.md](20-ts/30-generics-manipulation/20-generics-functions/readme.md)
+    [readme.md](20-ts/30-generics-manipulation/20-generics-functions/readme.md)
 60. [Generics types and interfaces, constraints](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/60)  
-[readme.md](./20-ts/30-generics-manipulation/30-generics-types-interfaces-constraints/readme.md)
+    [readme.md](./20-ts/30-generics-manipulation/30-generics-types-interfaces-constraints/readme.md)
 61. [Практика](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/61)  
-[readme.md](./20-ts/30-generics-manipulation/40-generics-types-practice/readme.md)
+    [readme.md](./20-ts/30-generics-manipulation/40-generics-types-practice/readme.md)
+62. [Generics classes](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/62)  
+    [src](./20-ts/30-generics-manipulation/50-generics-classes)
 
 ---
 
 ## Настройка WebStorm
 
-![settings-webstorm-ts.png](settings/webstorm/settings-webstorm-ts.png)                   
+![settings-webstorm-ts.png](settings/webstorm/settings-webstorm-ts.png)
+
 ````text
 -------------------------------------------------------------------------------
 Name              :    node-21-ts                                             : 
@@ -116,7 +119,9 @@ JavaScript file   :    $FilePath$                                             : 
                   :                                                           : Перед запуском нужно активировать таб с редактором.
 -------------------------------------------------------------------------------
 ````
+
 [Список подстановок, которые предусмотрены в IDE](https://www.jetbrains.com/help/objc/built-in-macros.html)
+
 ````text
 -------------------------------------------------------------------------------
 

@@ -102,6 +102,8 @@
     [readme.md](./20-ts/30-generics-manipulation/40-generics-types-practice/readme.md)
 62. [Generics classes](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/62)  
     [src](./20-ts/30-generics-manipulation/50-generics-classes)
+63. [Native generics](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/63)  
+    [src](./20-ts/30-generics-manipulation/60-native-generics)
 
 ---
 

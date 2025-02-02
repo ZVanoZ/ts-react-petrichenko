@@ -39,13 +39,13 @@ console.log(`keyOfFullName.toString(): "${keyOfFullName.toString()}"`);
 // keyOfFullName.toString(): "fullName"
 
 function getCompanyInfo<
-    TCompanyInfo,
-    TProp1 extends keyof TCompanyInfo,
-    TProp2 extends keyof TCompanyInfo
+    T_TypeOfInputObject,
+    T_Prop1Key extends keyof T_TypeOfInputObject,
+    T_Prop2Key extends keyof T_TypeOfInputObject
 >(
-    companyInfo: TCompanyInfo,
-    property1: TProp1, //
-    property2: TProp2
+    companyInfo: T_TypeOfInputObject,
+    property1: T_Prop1Key, //
+    property2: T_Prop2Key
 ): string//
 {
     // <<< Ошибка. Нельзя работать с property1, как со строкой.

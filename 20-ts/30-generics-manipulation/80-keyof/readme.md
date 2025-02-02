@@ -55,13 +55,13 @@ const keyOfFullName: AboutCompanyKeys = "fullName";
 // TCompanyInfo - generic тип для входящего параметра companyInfo
 // property1, property2 - названия полей класса TCompanyInfo. Например Symbol('fullName').   
 function getCompanyInfo<
-    TCompanyInfo,
-    TProp1 extends keyof TCompanyInfo,
-    TProp2 extends keyof TCompanyInfo
+    T_TypeOfInputObject,
+    T_Prop1Key extends keyof T_TypeOfInputObject,
+    T_Prop2Key extends keyof T_TypeOfInputObject
 >(
-    companyInfo: TCompanyInfo,
-    property1: TProp1, //
-    property2: TProp2
+    companyInfo: T_TypeOfInputObject,
+    property1: T_Prop1Key, //
+    property2: T_Prop2Key
 ): string//
 {
 }

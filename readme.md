@@ -108,6 +108,8 @@
     ~~[src](./20-ts/30-generics-manipulation/70-type-manipulation-intro)~~
 65. [keyof](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/65)  
     [src](./20-ts/30-generics-manipulation/80-keyof)
+65. [Оператор typeof и снова запросы типов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/66)  
+    [src](./20-ts/30-generics-manipulation/90-keyof-typeof-object)
 
 ---
 

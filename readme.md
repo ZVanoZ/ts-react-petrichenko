@@ -93,23 +93,23 @@
 
 57. [Введение в этот модуль](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/57)
 58. [Generics (Обобщения),что это и зачем нужно](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/58)   
-    [readme.md](20-ts/30-generics-manipulation/10-entry/readme.md)
+    [readme.md](20-ts/30-generics-manipulation/010-entry/readme.md)
 59. [Generics functions](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/59)  
     [readme.md](20-ts/30-generics-manipulation/20-generics-functions/readme.md)
 60. [Generics types and interfaces, constraints](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/60)  
-    [readme.md](./20-ts/30-generics-manipulation/30-generics-types-interfaces-constraints/readme.md)
+    [readme.md](./20-ts/30-generics-manipulation/030-generics-types-interfaces-constraints/readme.md)
 61. [Практика](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/61)  
-    [readme.md](./20-ts/30-generics-manipulation/40-generics-types-practice/readme.md)
+    [readme.md](./20-ts/30-generics-manipulation/040-generics-types-practice/readme.md)
 62. [Generics classes](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/62)  
-    [src](./20-ts/30-generics-manipulation/50-generics-classes)
+    [src](./20-ts/30-generics-manipulation/050-generics-classes)
 63. [Native generics](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/63)  
-    [src](./20-ts/30-generics-manipulation/60-native-generics)
+    [src](./20-ts/30-generics-manipulation/060-native-generics)
 64. [Type manipulation intro](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/64)  
-    ~~[src](./20-ts/30-generics-manipulation/70-type-manipulation-intro)~~
+    ~~[src](./20-ts/30-generics-manipulation/070-type-manipulation-intro)~~
 65. [keyof](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/65)  
-    [src](./20-ts/30-generics-manipulation/80-keyof)
-65. [Оператор typeof и снова запросы типов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/66)  
-    [src](./20-ts/30-generics-manipulation/90-keyof-typeof-object)
+    [src](./20-ts/30-generics-manipulation/080-keyof)
+66. [Оператор typeof и снова запросы типов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/66)  
+    [src](./20-ts/30-generics-manipulation/090-keyof-typeof-object)
 
 ---
 

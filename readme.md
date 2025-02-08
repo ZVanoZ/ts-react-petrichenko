@@ -112,6 +112,8 @@
     [src](./20-ts/30-generics-manipulation/090-keyof-typeof-object)
 67. [Indexed Access Types](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/67)  
     [src](./20-ts/30-generics-manipulation/100-indexed-access-types)
+68. [practice](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/68)  
+    [src](./20-ts/30-generics-manipulation/110-practice)
     
 ---
 

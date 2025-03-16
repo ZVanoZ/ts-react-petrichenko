@@ -114,6 +114,8 @@
     [src](./20-ts/30-generics-manipulation/100-indexed-access-types)
 68. [practice](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/68)  
     [src](./20-ts/30-generics-manipulation/110-practice)
+69. [Conditional types and infer](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/69)  
+    [src](./20-ts/30-generics-manipulation/120-conditional-types-and-infer)
     
 ---
 

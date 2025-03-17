@@ -118,6 +118,8 @@
     [src](./20-ts/30-generics-manipulation/120-conditional-types-and-infer)
 70. [Mapped types, +/- операторы](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/70)
     [src](./20-ts/30-generics-manipulation/130-mapped-types)
+71. [Template literal types](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/71)
+    [src](./20-ts/30-generics-manipulation/140-template-literal-types)
     
 ---
 

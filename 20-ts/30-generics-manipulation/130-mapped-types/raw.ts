@@ -1,4 +1,4 @@
-(()=>{
+(() => {
     type Currencies = {
         usa: "usd";
     };
@@ -12,12 +12,12 @@
     // console.log('CurrenciesKeys', keyof CurrenciesKeys);
 
 
-    const realCurrencies1: CustomCurrencies= {
+    //const realCurrencies1: CustomCurrencies = {
         //usa: "real-currencies",
-        /usa:Currencies["usa"]               // error TS2693: 'Currencies' only refers to a type, but is being used as a value here.
+        //usa: Currencies["usa"]               // error TS2693: 'Currencies' only refers to a type, but is being used as a value here.
         //usa: Currencies.usa.key             // error TS2693: 'Currencies' only refers to a type, but is being used as a value here.
         //usa: Currencies.usa.key.toString()  // error TS2693: 'Currencies' only refers to a type, but is being used as a value here.
-    };
+    //};
 })();
 
 // (()=>{
@@ -30,7 +30,7 @@
 //     console.log(usdValue); // Вывод: "usd"
 // })();
 
-(()=>{
+(() => {
     const currencies = {
         usa: "usd",
     };

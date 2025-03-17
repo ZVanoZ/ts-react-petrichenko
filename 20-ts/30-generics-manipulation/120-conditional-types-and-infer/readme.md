@@ -82,5 +82,14 @@ let f1v2: TF1Data = f1(321);
 function f1(data: number): number {
   return data;
 }
+```
+* Создание условного типа, который позволяет объявлять массивы данных произвольного типа.
+```typescript
+type ToArray<T> = T extends any ? T[] : number;
 
+const aNum : ToArray<number> = [1, 2, 3, 4, 5];
+console.log('aNum', aNum);
+
+const aStr:ToArray<string> = ['-1-', '-2-', '-3-'];
+console.log('aStr', aStr);
 ```

@@ -9,6 +9,8 @@
      * Например, на входе массив чисел, на выходе такой же массив, но числа увеличены вдвое.
      */
     () => {
+        console.log('-- MyAnswer');
+
         type TDataGeneric<T> = T extends (data: infer TData) => infer TData
             ? TData
             : undefined;
@@ -36,5 +38,24 @@
         {
             return 2 * data;
         }
+    }
+)();
+
+
+(
+    /**
+     * Ответ учителя.
+     * Оказалось, generic тип нужно использовать на этапе ОБЪЯВЛЕНИЯ массива данных, а не на
+     * этапе преобразования имеющихся массивов данных.
+     */
+    () => {
+        console.log('-- TeacherAnswer');
+        type ToArray<T> = T extends any ? T[] : number;
+
+        const aNum : ToArray<number> = [1, 2, 3, 4, 5];
+        console.log('aNum', aNum);
+
+        const aStr:ToArray<string> = ['-1-', '-2-', '-3-'];
+        console.log('aStr', aStr);
     }
 )();

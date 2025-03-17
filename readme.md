@@ -120,7 +120,9 @@
     [src](./20-ts/30-generics-manipulation/130-mapped-types)
 71. [Template literal types](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/71)
     [src](./20-ts/30-generics-manipulation/140-template-literal-types)
-    
+72. [Utility types: Pick, Omit, Extract, Exclude, Record](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/72)
+    [src](./20-ts/30-generics-manipulation/150-utility-types)
+
 ---
 
 ## Настройка WebStorm

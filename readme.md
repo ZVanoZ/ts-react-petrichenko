@@ -132,6 +132,15 @@
       [src](./20-ts/30-generics-manipulation/180-promise-and-json)
 77. * [x] [Awaited](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/77)
       [src](./20-ts/30-generics-manipulation/190-awaited)
+---
+
+**Typescript. Классы.**
+
+[40-classes](20-ts/40-classes)
+
+79. * [x] Введение в этот модуль  
+[src](20-ts/40-classes/010-intro)
+
 
 ---
 

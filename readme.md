@@ -128,6 +128,9 @@
       [src](./20-ts/30-generics-manipulation/160-practice/teacher)
 75. * [x] [Дополнительные вспомогательные типы (Utility types)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/75)
       [src](./20-ts/30-generics-manipulation/170-utility-types)
+76. * [x] [](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/76)
+      [src](./20-ts/30-generics-manipulation/180-promise-and-json)
+ 
 
 ---
 

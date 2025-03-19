@@ -29,14 +29,17 @@ import {fitnessClubCenter} from "./data";
 
         const futureClasses: TFutureClass[] = fitnessClubCenter.futureClasses;
     })();
-    type TClientAge = number | '-';
+    // type TClientAge = number | '-';
+    type TClientAge = string | number;
 
     type TGender = "male" | "female";
     interface ICurrClient {
-        name: string,
-        age: TClientAge,
-        gender: TGender
-        timeLeft: string,
+        name: string;
+        // age: TClientAge;
+        age: string | number;
+        //gender: TGender;
+        gender: "male" | "female";
+        timeLeft: string;
     }
     // (() => {
     //     const tmp: ICurrClient[] = fitnessClubCenter.currClients;

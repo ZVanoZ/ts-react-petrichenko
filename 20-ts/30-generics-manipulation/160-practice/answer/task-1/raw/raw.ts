@@ -1,4 +1,4 @@
-import {fitnessClubCenter,currClients} from "./data";
+import {fitnessClubCenter,currClients} from "../data";
 
 // (() => {
 //     (() => {

@@ -130,7 +130,8 @@
       [src](./20-ts/30-generics-manipulation/170-utility-types)
 76. * [x] [Работа с запросами на сервер, Promise и JSON](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/76)
       [src](./20-ts/30-generics-manipulation/180-promise-and-json)
- 
+77. * [x] [Awaited](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/77)
+      [src](./20-ts/30-generics-manipulation/190-awaited)
 
 ---
 

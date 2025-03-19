@@ -124,6 +124,10 @@
     [src](./20-ts/30-generics-manipulation/150-utility-types)
 73. * [ ] [Практика](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/73)  
     [src](./20-ts/30-generics-manipulation/160-practice)
+74. * [ ] [Практика - Разбор задач](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/74)
+      [src](./20-ts/30-generics-manipulation/160-practice/teacher)
+75. * [x] [Дополнительные вспомогательные типы (Utility types)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/75)
+      [src](./20-ts/30-generics-manipulation/170-utility-types)
 
 ---
 

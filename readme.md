@@ -118,19 +118,19 @@
     [src](./20-ts/30-generics-manipulation/120-conditional-types-and-infer)
 70. * [x] [Mapped types, +/- операторы](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/70)  
     [src](./20-ts/30-generics-manipulation/130-mapped-types)
-71. * [x] [Template literal types](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/71)
+71. * [x] [Template literal types](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/71)  
     [src](./20-ts/30-generics-manipulation/140-template-literal-types)
 72. * [x] [Utility types: Pick, Omit, Extract, Exclude, Record](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/72)  
     [src](./20-ts/30-generics-manipulation/150-utility-types)
 73. * [ ] [Практика](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/73)  
     [src](./20-ts/30-generics-manipulation/160-practice)
-74. * [ ] [Практика - Разбор задач](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/74)
+74. * [ ] [Практика - Разбор задач](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/74)  
       [src](./20-ts/30-generics-manipulation/160-practice/teacher)
-75. * [x] [Дополнительные вспомогательные типы (Utility types)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/75)
+75. * [x] [Дополнительные вспомогательные типы (Utility types)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/75)  
       [src](./20-ts/30-generics-manipulation/170-utility-types)
-76. * [x] [Работа с запросами на сервер, Promise и JSON](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/76)
+76. * [x] [Работа с запросами на сервер, Promise и JSON](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/76)  
       [src](./20-ts/30-generics-manipulation/180-promise-and-json)
-77. * [x] [Awaited](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/77)
+77. * [x] [Awaited](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/77)  
       [src](./20-ts/30-generics-manipulation/190-awaited)
 ---
 
@@ -141,6 +141,9 @@
 79. * [x] Введение в этот модуль  
 [src](20-ts/40-classes/010-intro)
 
+
+80. * [x] Базовая работа с классом, опции компиляции в "tsconfig.json", опция "strictPropertyInitialization".  
+[src](20-ts/40-classes/020-classes-ts)
 
 ---
 

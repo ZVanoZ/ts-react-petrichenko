@@ -145,6 +145,9 @@
 80. * [x] Базовая работа с классом, опции компиляции в "tsconfig.json", опция "strictPropertyInitialization".  
 [src](20-ts/40-classes/020-classes-ts)
 
+81. * [x] Конструкторы, перегрузки и дженерики.  
+      [src](20-ts/40-classes/020-classes-ts)
+
 ---
 
 ## Настройка WebStorm

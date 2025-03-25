@@ -141,15 +141,18 @@
 79. * [x] Введение в этот модуль  
 [src](20-ts/40-classes/010-intro)
 
-
-80. * [x] Базовая работа с классом, опции компиляции в "tsconfig.json", опция "strictPropertyInitialization".  
+80. * [x] 12:41 Базовая работа с классом, опции компиляции в "tsconfig.json", опция "strictPropertyInitialization".  
 [src](20-ts/40-classes/020-classes-ts)
 
-81. * [x] Конструкторы, перегрузки и дженерики.  
-      [src](20-ts/40-classes/020-classes-ts)
+81. * [x] 25:00 Конструкторы, перегрузки и дженерики.  
+[src](20-ts/40-classes/020-classes-ts)
 
-82. * [x] Методы, их перегрузки, getter и setter.  
-      [src](20-ts/40-classes/030-methods-override-getter-setter)
+82. * [x] 24:12 Методы, их перегрузки, getter и setter.  
+[src](20-ts/40-classes/030-methods-override-getter-setter)
+
+83. * [x] 04:26 Начальное значение и Index Signatures   
+      [src](20-ts/40-classes/040-index-signatures)
+
 
 ---
 

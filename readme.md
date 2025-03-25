@@ -153,6 +153,9 @@
 83. * [x] 04:26 Начальное значение и Index Signatures   
       [src](20-ts/40-classes/040-index-signatures)
 
+84. * [x] 14:15 Наследование классов в TS (extends)   
+      [src](20-ts/40-classes/050-extends)
+
 
 ---
 

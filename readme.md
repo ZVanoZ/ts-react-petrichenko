@@ -148,6 +148,9 @@
 81. * [x] Конструкторы, перегрузки и дженерики.  
       [src](20-ts/40-classes/020-classes-ts)
 
+82. * [x] Методы, их перегрузки, getter и setter.  
+      [src](20-ts/40-classes/030-methods-override-getter-setter)
+
 ---
 
 ## Настройка WebStorm

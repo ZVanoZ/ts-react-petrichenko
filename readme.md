@@ -156,6 +156,9 @@
 84. * [x] 14:15 Наследование классов в TS (extends)   
       [src](20-ts/40-classes/050-extends)
 
+85. * [x] 14:15 Имплементация в классах (implements)
+      [src](20-ts/40-classes/060-implements)
+
 
 ---
 

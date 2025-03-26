@@ -150,17 +150,20 @@
 82. * [x] 24:12 Методы, их перегрузки, getter и setter.  
 [src](20-ts/40-classes/030-methods-override-getter-setter)
 
-83. * [x] 04:26 Начальное значение и Index Signatures   
+83. * [x] 04:26 Начальное значение и Index Signatures  
       [src](20-ts/40-classes/040-index-signatures)
 
-84. * [x] 14:15 Наследование классов в TS (extends)   
+84. * [x] 14:15 Наследование классов в TS (extends)  
       [src](20-ts/40-classes/050-extends)
 
-85. * [x] 07:54 Имплементация в классах (implements)
+85. * [x] 07:54 Имплементация в классах (implements)  
       [src](20-ts/40-classes/060-implements)
 
-86. * [x] 04:28 Практика имплементации интерфейсов
+86. * [x] 04:28 Практика имплементации интерфейсов  
       [src](20-ts/40-classes/070-implements-practice)
+
+87. * [x] 12:46 Модификаторы видимости свойств  
+      [src](20-ts/40-classes/080-public-protected-private)
 
 ---
 

@@ -171,6 +171,9 @@
 89. * [x] 16:55 Статичные свойства и методы  
       [src](20-ts/40-classes/100-static)
 
+90. * [x] 15:41 this и типизация контекста  
+      [src](20-ts/40-classes/110-this-and-typed-context)
+
 ---
 
 ## Настройка WebStorm

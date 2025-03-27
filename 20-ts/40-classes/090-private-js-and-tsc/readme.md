@@ -2,10 +2,6 @@
 
 https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/88
 
-89. * [ ] 16:55 Статичные свойства и методы  
-      [src](20-ts/40-classes/100-static)
-
-
 * EN [В документации](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_properties)
 
 # Demo

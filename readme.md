@@ -165,6 +165,9 @@
 87. * [x] 12:46 Модификаторы видимости свойств  
       [src](20-ts/40-classes/080-public-protected-private)
 
+88. * [x] 08:01   
+      [src](20-ts/40-classes/090-private-field)
+
 ---
 
 ## Настройка WebStorm

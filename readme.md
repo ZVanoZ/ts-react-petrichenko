@@ -174,6 +174,9 @@
 90. * [x] 15:41 this и типизация контекста  
       [src](20-ts/40-classes/110-this-and-typed-context)
 
+91. * [x] 10:20 Абстрактные классы  
+      [src](20-ts/40-classes/120-abstract)
+
 ---
 
 ## Настройка WebStorm

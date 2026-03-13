@@ -1,6 +1,44 @@
+# "ts-react-petrichenko"
+
+
+Этот проект содержит мои наработки по прохождению учебного видео курса "Полный курс по Typescript + React".
+
+Автор курса: Ivan Petrychenko (Иван Петриченко)
+
+* Видео размещено тут: https://campfire-school.com/courses/polnyy-kurs-po-typescript-react
+* Ответы к урокам тут: https://github.com/yankovalenko94/TS_task_answers
+
+## Организация репозитария
+
+### Организация директорий для ответов к урокам.
+
+1. Для каждого блока курса отведена своя директория и субдиректория
+```
+"10-intro"                        - Раздел "Введение"
+
+"20-ts"                           - Раздел "Typescript. Базовые знания"
+
+"20-ts/10-base"                   - Субраздел "Typescript. Базовые знания"
+"20-ts/20-necessery"              - Субраздел "Typescript. Необходимый уровень"
+"20-ts/30-generics-manipulation"  - Субраздел "Typescript. Generics and type manipulations"
+"20-ts/40-classes"                - Субраздел "Typescript. Классы."
+"20-ts/50-decorators-and-configs" - Субраздел "Typescript. Декораторы и конфигурация"
+
+"30-practice" - Раздел "React + Typescript. Большая практика"
+```
+2. Для каждого урока создается своя папка.
+3. Папка урока содержит наработки в произвольной форме.  
+
+### Помощник AI
+
+1. В качестве помощника используется агент Cursor AI (директория [.cursor](.cursor) )
+2. Memory Bank System.  Долгосрочная память помощника организована при помощи vanzan01 "cursor-memory-bank" v0.8 (см. https://github.com/vanzan01/cursor-memory-bank.git)
+   
+
 ## Содержание
 
 **Полный курс по Typescript + React**
+
 
 ---
 
@@ -176,6 +214,22 @@
 
 91. * [x] 10:20 Абстрактные классы  
       [src](20-ts/40-classes/120-abstract)
+
+---
+
+**Typescript. Декораторы и конфигурация**
+
+Директория: [50-decorators-and-configs](20-ts/50-decorators-and-configs)
+
+@TODO: пройти раздел
+
+---
+
+**React + Typescript. Большая практика**
+
+Директория:[30-practice](30-practice)
+
+@TODO: пройти раздел
 
 ---
 

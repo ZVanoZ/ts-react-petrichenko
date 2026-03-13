@@ -15,6 +15,15 @@
 - `30-practice` — раздел **«React + Typescript. Большая практика»**:
   - Здесь планируется/ведётся практическая часть по React + TS.
 
+### Маппинг с официальной страницей курса
+
+- Блок **«Typescript. Базовые знания»** на странице курса ([`Полный курс по Typescript + React`](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react)) соответствует директории `20-ts/10-base`.
+- Блок **«Typescript. Необходимый уровень»** → `20-ts/20-necessery`.
+- Блок **«Typescript. Generics and type manipulations»** → `20-ts/30-generics-manipulation`.
+- Блок **«Typescript. Классы»** → `20-ts/40-classes`.
+- Блок **«Typescript. Декораторы и конфигурация»** → `20-ts/50-decorators-and-configs`.
+- Блок **«React + Typescript. Большая практика»** → директория `30-practice`.
+
 ### Как этим пользоваться
 
 - За основу навигации брать корневой `readme.md` — он связывает номера уроков, директории и внешние ссылки.

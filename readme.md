@@ -31,8 +31,12 @@
 
 ### Помощник AI
 
-1. В качестве помощника используется агент Cursor AI (директория [.cursor](.cursor) )
-2. Memory Bank System.  Долгосрочная память помощника организована при помощи vanzan01 "cursor-memory-bank" v0.8 (см. https://github.com/vanzan01/cursor-memory-bank.git)
+1. В качестве помощника используется агент Cursor AI   
+Конфигурация программы Cursor для проекта в директории [.cursor](.cursor)
+2. Memory Bank System.  Долгосрочная память помощника организована при помощи vanzan01 "cursor-memory-bank" v0.8  
+[Репозитарий проекта vanzan01 "cursor-memory-bank"](https://github.com/vanzan01/cursor-memory-bank.git)  
+Банк памяти текущего проекта расположен в директории [memory-bank](memory-bank) 
+
    
 
 ## Содержание

@@ -230,6 +230,15 @@
 
 90. * [x] 15:41 this и типизация контекста  
       [src](20-ts/40-classes/110-this-and-typed-context)
+      * <details>
+          <summary>ai-relevance</summary>
+
+          [ai-relevance.md](20-ts/40-classes/110-this-and-typed-context/ai-relevance.md)
+          ```text
+          Дата проверки: 2026-03-13
+          Статус: Актуально
+          ```
+        </details>
 
 91. * [x] 10:20 Абстрактные классы  
       [src](20-ts/40-classes/120-abstract)

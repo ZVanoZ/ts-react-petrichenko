@@ -22,77 +22,146 @@ plan-url="https://campfire-school.com/courses/polnyy-kurs-po-typescript-react"
 
 ## "cource-plan"
 
-- **Полный курс по Typescript + React**
+- **Введение**
+  - Про этот курс — `episode/9`
+  - Как проходить данный курс — `episode/10`
+  - Про закрытый чат, редакторы кода, материалы и ссылки + конспект по TS — `episode/11`
+  - Мобильное приложение — `episode/12` (в тексте курса как отдельный пункт, без номера урока)
+  - Дополнительно: настройка рабочего пространства — `episode/12`
+  - Дополнительно: Установка автоматического форматирования — `episode/13`
 
-  - **Введение**
-    - 9. [Про этот курс](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/9)
-    - 10. [Как проходить данный курс](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/10)
-    - 11. [Про закрытый чат, редакторы кода, материалы и ссылки + конспект по TS](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/11)
-    - 12. [Дополнительно: настройка рабочего пространства](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/12)
-    - 13. [Дополнительно: Установка автоматического форматирования](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/13)
+- **Typescript. Базовые знания**
+  - Что такое TypeScript и зачем он нужен — `episode/14`
+  - Установка TS и запуск файлов — `episode/15`
+  - Базовые типы: строка, число, логическое значение — `episode/16`
+  - Использование системы типов в функциях — `episode/17`
+  - Специальный тип any — `episode/18`
+  - Практика типизации кода — `episode/19`
+  - Тип never — `episode/20`
+  - Типы null и undefined — `episode/21`
+  - (д) Редкие примитивные типы bigint, symbol — `episode/22`
+  - Типизация объектов и деструктуризация — `episode/23`
+  - Типизация массивов — `episode/24`
+  - Практика типизации кода — `episode/25`
+  - Tuples (Кортежи) — `episode/26`
+  - Union (Объединение) — `episode/27`
+  - Сужение типов (Narrowing) — `episode/28`
+  - Примитивные литеральные типы (Literal types) — `episode/29`
+  - Псевдонимы типов (Type aliases) — `episode/30`
+  - Объектные литералы и аннотации функций — `episode/31`
+  - Проверка знаний — `episode/32`
 
-  - **Typescript. Базовые знания** (`20-ts/10-base`)
-    - 14. [Что такое TypeScript и зачем он нужен](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/14)
-    - 15. [Установка TS и запуск файлов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/15)
-    - 16. [Базовые типы: строка, число, логическое значение](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/16)
-    - 17. [Использование системы типов в функциях](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/17)
-    - 18. [Специальный тип any](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/18)
-    - 19. [Практика типизации кода](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/19)
-    - 20. [Тип never](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/20)
-    - 21. [Типы null и undefined](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/21)
-    - 22. [(д) Редкие примитивные типы bigint, symbol](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/22)
-    - 23. [Типизация объектов и деструктуризация](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/23)
-    - 24. [Типизация массивов](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/24)
-    - 25. [Практика типизации кода](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/25)
-    - 26. [Tuples (Кортежи)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/26)
-    - 27. [Union (Объединение)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/27)
-    - 28. [Сужение типов (Narrowing)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/28)
-    - 29. [Примитивные литеральные типы (Literal types)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/29)
-    - 30. [Псевдонимы типов (Type aliases)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/30) — `20-ts/10-base/160-type-aliases`
-    - 31–32. [Объектные литералы, аннотации функций и проверка знаний](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/31)
+- **Typescript. Необходимый уровень**
+  - Более продвинутый Type и пересечение типов (Intersection) — `episode/33`
+  - Интерфейсы (Interfaces) — `episode/34`
+  - Type или Interface? — `episode/35`
+  - Практика работы с интерфейсами и типами — `episode/36`
+  - Механизм вывода типов (Type Inference) — `episode/37`
+  - Модификаторы свойств: optional (Property Modifiers) — `episode/38`
+  - (д) Оператор Non-Null and Non-Undefined — `episode/39`
+  - Модификаторы свойств: readonly (Property Modifiers) — `episode/40`
+  - Enums — `episode/41`
+  - Проблемы использования Enum — `episode/42`
+  - Тип Unknown — `episode/43`
+  - Запросы типов — `episode/44`
+  - Практика — `episode/45`
+  - Утверждение типов (Type Assertions) — `episode/46`
+  - Немного про “внутренние” типы и приведение типов — `episode/47`
+  - Type Guard — `episode/48`
+  - Кейс использования never — `episode/49`
+  - Перегрузка функций — `episode/50`
+  - Разделение интерфейсов на правильные части — `episode/51`
+  - Практика создания type guard и правильных интерфейсов — `episode/52`
+  - Работа с DOM — `episode/53`
+  - Практика работы с DOM — `episode/54`
+  - (д) Использование void внутри TS — `episode/55`
+  - Проверка знаний — `episode/56`
 
-  - **Typescript. Необходимый уровень** (`20-ts/20-necessery`)
-    - 33. [Более продвинутый Type и пересечение типов (Intersection)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/33) — `20-ts/20-necessery/010-intersection`
-    - 34–36. Интерфейсы и сравнение Type vs Interface — `20-ts/20-necessery/020-interface`
-    - 37. Практика работы с интерфейсами и типами — `20-ts/20-necessery/030-practice`
-    - 38. [Механизм вывода типов (Type Inference)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/37) — `20-ts/20-necessery/040-type-inference`
-    - 38. [Модификаторы свойств: optional](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/38) — `20-ts/20-necessery/050-property-modifiers`
-    - 39. [Оператор Non-Null and Non-Undefined](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/39) — `20-ts/20-necessery/060-non-null-and-non-undefined`
-    - 40. [Модификаторы свойств: readonly](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/40) — `20-ts/20-necessery/070-readonly`
-    - 41–42. Enums и проблемы их использования — `20-ts/20-necessery/080-enum`, `090-enum-trubles`
-    - 43. [Тип Unknown](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/43) — `20-ts/20-necessery/100-type-unknown`
-    - 44. [Запросы типов (Type Queries)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/44) — `20-ts/20-necessery/110-type-queries`
-    - 45. Практика — `20-ts/20-necessery/120-practice`
-    - 46. [Утверждение типов (Type Assertions)](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/46) — `20-ts/20-necessery/130-type-assertions`
-    - 47. Внутренние типы и приведение типов — `20-ts/20-necessery/140-type-casting`
-    - 48. [Type Guard](https://campfire-school.com/courses/polnyy-kurs-po-typescript-react/episode/48) — `20-ts/20-necessery/190-practice-typeguard-interfaces`
-    - 49–56. Дополнительные темы и практика по TS (never, перегрузка функций, DOM и т.п.)
+- **Typescript. Generics and type manipulations**
+  - Введение в этот модуль — `episode/57`
+  - Generics (Обобщения), что это и зачем нужно — `episode/58`
+  - Generics functions — `episode/59`
+  - Generics types and interfaces, constraints — `episode/60`
+  - Практика — `episode/61`
+  - Generics classes — `episode/62`
+  - Встроенные обобщения (Readonly, Partial, Required) — `episode/63`
+  - Манипуляции с типами и как они реализуются — `episode/64`
+  - Оператор keyof — `episode/65`
+  - Оператор typeof и снова запросы типов — `episode/66`
+  - Indexed Access Types — `episode/67`
+  - Практика — `episode/68`
+  - Conditional types and infer — `episode/69`
+  - Mapped types, +/- операторы — `episode/70`
+  - Template literal types — `episode/71`
+  - Utility types: Pick, Omit, Extract, Exclude, Record — `episode/72`
+  - Практика — `episode/73`
+  - (д) Разбор задач — `episode/74`
+  - Дополнительные вспомогательные типы (Utility types) — `episode/75`
+  - Работа с запросами на сервер, Promise и JSON — `episode/76`
+  - Awaited — `episode/77`
+  - Проверка знаний — `episode/78`
 
-  - **Typescript. Generics and type manipulations** (`20-ts/30-generics-manipulation`)
-    - 57. Введение в модуль — `20-ts/30-generics-manipulation/010-entry/readme.md`
-    - 58–60. Generics: функции, типы и интерфейсы, ограничения — `20-ts/30-generics-manipulation/20-generics-functions`, `030-generics-types-interfaces-constraints`
-    - 61. Практика — `20-ts/30-generics-manipulation/040-generics-types-practice`
-    - 62. Generics classes — `20-ts/30-generics-manipulation/050-generics-classes`
-    - 63–72. Встроенные generics, type manipulation, keyof, typeof, indexed access types, template literal types, utility types — директории `060`–`150`
-    - 73–74. Практика и разбор задач — `160-practice`, `160-practice/teacher`
-    - 75–77. Дополнительные utility types, работа с Promise/JSON, Awaited — `170-utility-types`, `180-promise-and-json`, `190-awaited`
+- **Typescript. Классы**
+  - Введение в этот модуль — `episode/79`
+  - Базовая работа с классом — `episode/80`
+  - Конструкторы, перегрузки и дженерики — `episode/81`
+  - Методы, их перегрузки, getter и setter — `episode/82`
+  - Начальное значение и Index Signatures — `episode/83`
+  - Наследование классов в TS (extends) — `episode/84`
+  - Имплементация в классах (implements) — `episode/85`
+  - Практика имплементации интерфейсов — `episode/86`
+  - Модификаторы видимости свойств — `episode/87`
+  - Приватные поля (#, возможность в JS) — `episode/88`
+  - Статичные свойства и методы — `episode/89`
+  - this и типизация контекста — `episode/90`
+  - Абстрактные классы — `episode/91`
+  - Практика с классами — `episode/92`
 
-  - **Typescript. Классы.** (`20-ts/40-classes`)
-    - 79. Введение в модуль — `20-ts/40-classes/010-intro`
-    - 80–81. Базовая работа с классом, конструкторы и дженерики — `20-ts/40-classes/020-classes-ts`
-    - 82. Методы, перегрузки, getter/setter — `20-ts/40-classes/030-methods-override-getter-setter`
-    - 83. Начальное значение и index signatures — `20-ts/40-classes/040-index-signatures`
-    - 84. Наследование (extends) — `20-ts/40-classes/050-extends`
-    - 85. Имплементация интерфейсов (implements) — `20-ts/40-classes/060-implements`
-    - 86. Практика имплементации интерфейсов — `20-ts/40-classes/070-implements-practice`
-    - 87. Модификаторы видимости свойств — `20-ts/40-classes/080-public-protected-private`
-    - 88. Приватные поля (#, возможности JS) — `20-ts/40-classes/090-private-js-and-tsc`
-    - 89. Статичные свойства и методы — `20-ts/40-classes/100-static`
-    - 90. this и типизация контекста — `20-ts/40-classes/110-this-and-typed-context`
-    - 91. Абстрактные классы — `20-ts/40-classes/120-abstract`
+- **Typescript. Декораторы и конфигурация**
+  - Введение в этот модуль — `episode/93`
+  - Обновление 5.0 и влияние на декораторы — `episode/94`
+  - Декораторы — `episode/95`
+  - Декораторы в TS — `episode/96`
+  - Терминология, фабрика декораторов — `episode/97`
+  - ES декораторы из версии 5+, ES декоратор классов — `episode/98`
+  - Декораторы методов и работа с this — `episode/99`
+  - ES декораторы методов (5+) — `episode/100`
+  - Декораторы свойств — `episode/101`
+  - ES-декораторы свойств (5+) — `episode/102`
+  - Декораторы свойств-акцессоров (get/set) — `episode/103`
+  - ES-декораторы свойств-акцессоров (5+) — `episode/104`
+  - Декораторы параметров и метаданные — `episode/105`
+  - Декораторы параметров и метаданные в 5.0 — `episode/106`
+  - Порядок декораторов — `episode/107`
+  - Заметка про выполнение следующей практики — `episode/108`
+  - Практика с декораторами, выявляем проблемы и практикуем метаданные — `episode/109`
+  - Конфигурация. Настраиваем ввод и вывод файлов — `episode/110`
+  - Конфигурация. Настраиваем опции вывода — `episode/111`
+  - Конфигурация. Настраиваем окружение, ограничения и проверки — `episode/112`
+  - Модули и сборка — `episode/113`
 
-  - **Typescript. Декораторы и конфигурация** (`20-ts/50-decorators-and-configs`)
-    - @TODO: пройти раздел (структура уроков будет добавлена по мере прохождения курса)
+- **React + Typescript. Большая практика**
+  - Так ли нужен тайпскрипт в проектах? — `episode/114`
+  - Подключаем TS к реакту и знакомимся с базой — `episode/115`
+  - Обзор проекта — `episode/116`
+  - Создание собственного хука, useState, useCallback — `episode/117`
+  - Создание сервиса и дополняем архитектуру проекта — `episode/118`
+  - Заметка про баг в Json-server — `episode/119`
+  - Используем useReducer и его возможности — `episode/120`
+  - Используем React Context и получаем нужные данные с сервера — `episode/121`
+  - Работаем со временем в JS — `episode/122`
+  - (д) Разбор домашнего задания — `episode/123`
+  - Готовые Utility Types — `episode/124`
+  - Работа с модальными окнами — `episode/125`
+  - Создаем правильные порталы — `episode/126`
+  - Разница событий в React и в нативном TS — `episode/127`
+  - Оптимизация при помощи useCallback и memo — `episode/128`
+  - Создаем функционал модификации записей — `episode/129`
+  - Генерация новых записей — `episode/130`
+  - Простая маршрутизация проекта — `episode/131`
+  - Встроенные в React типы и их использование — `episode/132`
+  - Создаем компонент календаря и динамическую типизацию данных — `episode/133`
+  - Миграция проекта на TS — `episode/134`
+  - (д) Классовые компоненты и их особенности в связке с TS — `episode/135`
+  - Использование других библиотек (Zustand, redux, material и тп) — `episode/136`
 
-  - **React + Typescript. Большая практика** (`30-practice`)
-    - @TODO: пройти раздел (план практических проектов и их директории будут добавлены по мере прохождения курса)

@@ -260,7 +260,7 @@
 
           [ai-relevance.md](20-ts/40-classes/110-this-and-typed-context/ai-relevance.md)
           ```text
-          Дата проверки: 2026-03-13
+          Дата проверки: 2026-03-16
           Статус: Актуально
           ```
         </details>

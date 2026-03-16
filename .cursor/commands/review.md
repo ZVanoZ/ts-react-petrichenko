@@ -112,29 +112,122 @@ The `/review` command implements the following high‑level tasks:
        - non‑idiomatic or unsafe TypeScript or React usage;
        - unnecessary complexity or code smells.
   3. Write analysis into `lesson-path/ai-relevance.md`:
-     - ensure there is a dedicated section `## Анализ вашего решения` and update it instead of creating parallel sections;
-     - when the section already exists, append a new dated subsection and **compare current state with previous recommendations** from this section, explicitly отмечая:
-       - какие рекомендации из прошлых запусков `/review analyze` были учтены;
-       - какие остаются невыполненными или требуют доработки;
-     - пример структуры:
+     - Ensure there is a single top‑level section `## Анализ вашего решения` that acts as a chronological log of all analysis runs for this lesson.
+     - For **each invocation** of `/review analyze <lesson-path>`:
+       - insert a **new sub‑section at the top** of `## Анализ вашего решения` with the heading:
+         - `### Дата: <YYYY-MM-DD HH:MM>` (24‑hour format, local project time);
+       - inside this sub‑section, structure the content using the following blocks and numbered lists:
+         ```markdown
+         ## Анализ вашего решения
+
+         ### Дата: <YYYY-MM-DD HH:MM>
+
+         #### Выполнено:
+
+         1. "<OLD-DATE> п.N"
+
+         #### "@TODO:
+
+         1. "<OLD-DATE> п.M"
+
+         #### Пробелы в знаниях
+
+         1. ...
+
+         #### Замечания к реализации
+
+         1. ...
+
+         #### Рекомендованные шаги
+
+         1. ...
+         ```
+         where:
+         - `"<OLD-DATE> п.N"` is a reference to item `N` from an earlier `### Дата: ...` section in the same `ai-relevance.md` file.
+     - When constructing `Выполнено` and `"@TODO`:
+       - parse all earlier `### Дата: ...` sections within `## Анализ вашего решения`;
+       - for each previously suggested item, determine whether the current solution code now satisfies it:
+         - if yes, add a reference under `Выполнено` and treat this recommendation as closed;
+         - if no, add or keep a reference under `"@TODO` until it is eventually satisfied in a future run.
+     - Preserve all previous `### Дата: ...` sections verbatim to maintain a full history; never overwrite or delete historical analysis entries.
+
+     - Example of an initial analysis section:
        ```markdown
        ## Анализ вашего решения
 
-       ### Дата: <YYYY-MM-DD>
+       ### Дата: "2026-03-16 10:31"
 
-       ### Пробелы в знаниях
+       #### Выполнено:
 
-       - ...
+       1. (none)
 
-       ### Замечания к реализации
+       #### "@TODO:
 
-       - ...
+       1. (none)
 
-       ### Рекомендованные шаги
+       #### Пробелы в знаниях
 
-       - ...
+       1. Добавить тип данных для свойства "birthday".
+
+       #### Замечания к реализации
+
+       1. Свойство "password" объявлено без модификатора доступа.
+
+       #### Рекомендованные шаги
+
+       1. Добавить свойству "password" модификатор доступа "protected".
+       2. Добавить тип данных для свойства "birthday".
        ```
-     - Preserve any existing relevance sections; within `## Анализ вашего решения` только дополнять и актуализировать содержимое, не теряя историю рекомендаций.
+
+     - Example of a repeated analysis with references to previous items:
+       ```markdown
+       ## Анализ вашего решения
+
+       ### Дата: "2026-03-16 10:40"
+
+       #### Выполнено:
+
+       1. "2026-03-16 10:31" п.2
+
+       #### "@TODO:
+
+       1. "2026-03-16 10:31" п.1
+
+       #### Пробелы в знаниях
+
+       1. (none)
+
+       #### Замечания к реализации
+
+       1. (none)
+
+       #### Рекомендованные шаги
+
+       1. (none)
+
+       ### Дата: "2026-03-16 10:31"
+
+       #### Выполнено:
+
+       1. (none)
+
+       #### "@TODO:
+
+       1. (none)
+
+       #### Пробелы в знаниях
+
+       1. Добавить тип данных для свойства "birthday".
+
+       #### Замечания к реализации
+
+       1. Свойство "password" объявлено без модификатора доступа.
+
+       #### Рекомендованные шаги
+
+       1. Добавить свойству "password" модификатор доступа "protected".
+       2. Добавить тип данных для свойства "birthday".
+       ```
   4. Keep the short `<details>` block in `readme.md` focused on the overall status and date; deep analysis remains only in `ai-relevance.md`.
 
 ### `/review cource-plan-for-ai`

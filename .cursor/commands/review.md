@@ -120,7 +120,7 @@ The `/review` command implements the following high‑level tasks:
          ```markdown
          ## Анализ вашего решения
 
-         ### Дата: <YYYY-MM-DD HH:MM>
+         ### Дата: <YYYY-MM-DD HH:mm>
 
          #### Выполнено:
 
@@ -154,21 +154,39 @@ The `/review` command implements the following high‑level tasks:
 
 #### AI markers in code (`@ai-review`)
 
-To help `/review analyze` associate concrete pieces of code with specific recommendations in `ai-review.md`, you can place structured markers in comments inside lesson code and related scripts.
+To help `/review analyze` associate concrete pieces of code with specific recommendations in `ai-review.md`, you can place markers in comments inside lesson code and related scripts.
 
-- **Generic marker syntax**
+- **Generic marker syntax (human‑readable path)**
 
   ```text
-  @ai-review|section=analysis;date=<YYYY-MM-DD HH:mm>;item=<N>[;lesson=<lesson-path>]|<free-text>
+  @ai-review|Анализ вашего решения/Дата: "<YYYY-MM-DD HH:mm>"/<block-title>/<item-number>|<free-text>
   ```
 
   Where:
 
-  - `section=analysis` – indicates the marker refers to the `## Анализ вашего решения` section in `ai-review.md`.
-  - `date=<YYYY-MM-DD HH:mm>` – must exactly match the value from the corresponding `### Дата: "<YYYY-MM-DD HH:mm>"` heading in `ai-review.md`.
-  - `item=<N>` – 1‑based index of the recommendation item within that date block.
-  - `lesson=<lesson-path>` – optional; when present, points explicitly to another lesson’s `ai-review.md` (for cross‑lesson references). When omitted, `/review` should search for `ai-review.md` starting from the current file’s directory and walking upward.
-  - `<free-text>` – optional human‑readable explanation for maintainers; does not affect linking logic.
+  - The part between `@ai-review|` and the final `|` is a **path** that mirrors the physical structure of `ai-review.md`:
+    - `Анализ вашего решения` – the `## Анализ вашего решения` section.
+    - `Дата: "<YYYY-MM-DD HH:mm>"` – the exact `### Дата: ...` heading for this analysis run.
+    - `<block-title>` – one of the subsection headings under that date, for example:
+      - `Пробелы в знаниях`
+      - `Замечания к реализации`
+      - `Рекомендованные шаги`
+    - `<item-number>` – 1‑based index of the bullet within that subsection’s numbered list.
+  - `<free-text>` – optional human‑readable explanation for maintainers; it does not participate in linking logic.
+
+  When scanning code, `/review analyze` should:
+
+  - Look for lines containing `@ai-review|`.
+  - Split the marker on the first `|` into:
+    - the path (`Анализ вашего решения/.../<item-number>`);
+    - optional `<free-text>`.
+  - Use the path to locate the referenced recommendation inside `ai-review.md`:
+    - find `## Анализ вашего решения`;
+    - within it, the matching `### Дата: "<YYYY-MM-DD HH:mm>"`;
+    - within that date block, the subsection with title `<block-title>`;
+    - and then the `<item-number>`‑th item in that subsection’s list.
+
+  This linkage can then be used when deciding whether a specific recommendation should be moved from `"@TODO` to `Выполнено` in a new analysis entry.
 
 ### `/review cource-plan-for-ai`
 

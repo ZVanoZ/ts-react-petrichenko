@@ -112,9 +112,15 @@ The `/review` command implements the following high‑level tasks:
        - non‑idiomatic or unsafe TypeScript or React usage;
        - unnecessary complexity or code smells.
   3. Write analysis into `lesson-path/ai-relevance.md`:
-     - add a dedicated section, for example:
+     - ensure there is a dedicated section `## Анализ вашего решения` and update it instead of creating parallel sections;
+     - when the section already exists, append a new dated subsection and **compare current state with previous recommendations** from this section, explicitly отмечая:
+       - какие рекомендации из прошлых запусков `/review analyze` были учтены;
+       - какие остаются невыполненными или требуют доработки;
+     - пример структуры:
        ```markdown
        ## Анализ вашего решения
+
+       ### Дата: <YYYY-MM-DD>
 
        ### Пробелы в знаниях
 
@@ -128,7 +134,7 @@ The `/review` command implements the following high‑level tasks:
 
        - ...
        ```
-     - Preserve any existing relevance sections, only appending or updating this analysis section.
+     - Preserve any existing relevance sections; within `## Анализ вашего решения` только дополнять и актуализировать содержимое, не теряя историю рекомендаций.
   4. Keep the short `<details>` block in `readme.md` focused on the overall status and date; deep analysis remains only in `ai-relevance.md`.
 
 ### `/review cource-plan-for-ai`

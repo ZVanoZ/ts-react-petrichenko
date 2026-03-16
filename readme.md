@@ -252,6 +252,15 @@
 
 89. * [x] 16:55 Статичные свойства и методы  
       [src](20-ts/40-classes/100-static)
+      * <details>
+          <summary>ai-relevance</summary>
+
+          [ai-relevance.md](20-ts/40-classes/100-static/ai-relevance.md)
+          ```text
+          Дата проверки: 2026-03-16
+          Статус: Актуально
+          ```
+        </details>
 
 90. * [x] 15:41 this и типизация контекста  
       [src](20-ts/40-classes/110-this-and-typed-context)

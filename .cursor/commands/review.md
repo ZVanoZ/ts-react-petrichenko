@@ -115,7 +115,7 @@ The `/review` command implements the following high‑level tasks:
      - Ensure there is a single top‑level section `## Анализ вашего решения` that acts as a chronological log of all analysis runs for this lesson.
      - For **each invocation** of `/review analyze <lesson-path>`:
        - insert a **new sub‑section at the top** of `## Анализ вашего решения` with the heading:
-         - `### Дата: <YYYY-MM-DD HH:MM>` (24‑hour format, local project time);
+         - `### Дата: <YYYY-MM-DD HH:mm>` (24‑hour format, where `HH` = hours and `mm` = minutes, using the actual local analysis time);
        - inside this sub‑section, structure the content using the following blocks and numbered lists:
          ```markdown
          ## Анализ вашего решения
@@ -150,85 +150,25 @@ The `/review` command implements the following high‑level tasks:
          - if yes, add a reference under `Выполнено` and treat this recommendation as closed;
          - if no, add or keep a reference under `"@TODO` until it is eventually satisfied in a future run.
      - Preserve all previous `### Дата: ...` sections verbatim to maintain a full history; never overwrite or delete historical analysis entries.
-
-     - Example of an initial analysis section:
-       ```markdown
-       ## Анализ вашего решения
-
-       ### Дата: "2026-03-16 10:31"
-
-       #### Выполнено:
-
-       1. (none)
-
-       #### "@TODO:
-
-       1. (none)
-
-       #### Пробелы в знаниях
-
-       1. Добавить тип данных для свойства "birthday".
-
-       #### Замечания к реализации
-
-       1. Свойство "password" объявлено без модификатора доступа.
-
-       #### Рекомендованные шаги
-
-       1. Добавить свойству "password" модификатор доступа "protected".
-       2. Добавить тип данных для свойства "birthday".
-       ```
-
-     - Example of a repeated analysis with references to previous items:
-       ```markdown
-       ## Анализ вашего решения
-
-       ### Дата: "2026-03-16 10:40"
-
-       #### Выполнено:
-
-       1. "2026-03-16 10:31" п.2
-
-       #### "@TODO:
-
-       1. "2026-03-16 10:31" п.1
-
-       #### Пробелы в знаниях
-
-       1. (none)
-
-       #### Замечания к реализации
-
-       1. (none)
-
-       #### Рекомендованные шаги
-
-       1. (none)
-
-       ### Дата: "2026-03-16 10:31"
-
-       #### Выполнено:
-
-       1. (none)
-
-       #### "@TODO:
-
-       1. (none)
-
-       #### Пробелы в знаниях
-
-       1. Добавить тип данных для свойства "birthday".
-
-       #### Замечания к реализации
-
-       1. Свойство "password" объявлено без модификатора доступа.
-
-       #### Рекомендованные шаги
-
-       1. Добавить свойству "password" модификатор доступа "protected".
-       2. Добавить тип данных для свойства "birthday".
-       ```
   4. Keep the short `<details>` block in `readme.md` focused on the overall status and date; deep analysis remains only in `ai-review.md`.
+
+#### AI markers in code (`@ai-review`)
+
+To help `/review analyze` associate concrete pieces of code with specific recommendations in `ai-review.md`, you can place structured markers in comments inside lesson code and related scripts.
+
+- **Generic marker syntax**
+
+  ```text
+  @ai-review|section=analysis;date=<YYYY-MM-DD HH:mm>;item=<N>[;lesson=<lesson-path>]|<free-text>
+  ```
+
+  Where:
+
+  - `section=analysis` – indicates the marker refers to the `## Анализ вашего решения` section in `ai-review.md`.
+  - `date=<YYYY-MM-DD HH:mm>` – must exactly match the value from the corresponding `### Дата: "<YYYY-MM-DD HH:mm>"` heading in `ai-review.md`.
+  - `item=<N>` – 1‑based index of the recommendation item within that date block.
+  - `lesson=<lesson-path>` – optional; when present, points explicitly to another lesson’s `ai-review.md` (for cross‑lesson references). When omitted, `/review` should search for `ai-review.md` starting from the current file’s directory and walking upward.
+  - `<free-text>` – optional human‑readable explanation for maintainers; does not affect linking logic.
 
 ### `/review cource-plan-for-ai`
 

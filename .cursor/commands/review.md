@@ -131,18 +131,29 @@ The `/review` command implements the following high‑level tasks:
      - Preserve any existing relevance sections, only appending or updating this analysis section.
   4. Keep the short `<details>` block in `readme.md` focused on the overall status and date; deep analysis remains only in `ai-relevance.md`.
 
-### `/review cource-plan`
+### `/review cource-plan-for-ai`
 
 **Purpose:** Refresh the AI-facing course plan used by `/review` based on the current source URL.
 
 - **Workflow**
   1. Read `cource-plan-for-ai.md` at the repository root.
-  2. Extract the URL of the actual course plan from the header section (the line starting with `Актуальный план по адресу`).
-  3. Fetch the content from this URL and derive a **hierarchical, nested outline** of the course, preserving the same section/lesson nesting as on the course page.
-  4. Regenerate the `## План курса` section in `cource-plan-for-ai.md`:
-     - replace everything under `## План курса` with a **hierarchical markdown bullet list** that mirrors the developer’s plan (sections, subsections, lessons with their links);
+  2. Read the `## "ai-options"` section and parse the `ini` code block.
+  3. Extract `plan-url` from the ini block (for example: `plan-url="https://..."`).
+  4. Perform an HTTP request to `plan-url` and, **исходя исключительно из структуры страницы курса (а не локального `readme.md`)**, построить иерархический набросок плана:
+     - разделы и подмодули курса;
+     - отдельные уроки с их номерами и ссылками.
+  5. **Validation (mandatory):** verify that the fetched page actually contains the lesson list:
+     - if the page is paywalled / requires authentication / does not contain a parseable plan, the command must:
+       - **stop**;
+       - write a short note in `cource-plan-for-ai.md` (above `## "cource-plan"`) that the plan cannot be regenerated automatically from `plan-url` and why;
+       - **NOT** regenerate `## "cource-plan"` from any local sources by default.
+     - The command must never silently fall back to using the local `readme.md` as the source of truth.
+  6. Optional fallback (explicit only):
+     - implementations may support a flag like `--from-readme` to regenerate the plan from the local `readme.md`, but only when the user explicitly requests it.
+  7. Regenerate the `## "cource-plan"` section in `cource-plan-for-ai.md`:
+     - replace everything under `## "cource-plan"` with a **hierarchical markdown bullet list** that mirrors the course page structure (sections, subsections, lessons with their links and, при наличии, путями к локальным директориям);
      - keep the introductory part of the file (description, rules) intact.
-  5. The regenerated plan must preserve lesson order so that `/review lesson` and `/review analyze` can:
+  8. The regenerated plan must preserve lesson order so that `/review lesson` and `/review analyze` can:
      - know which lessons come before and after the current one;
      - avoid marking topics as "not covered" in `ai-relevance.md` if those topics belong to lessons that come **after** the current lesson in the plan.
 
@@ -184,8 +195,8 @@ Implementations may also provide additional explanation or sub‑status inside `
 - `/review analyze 20-ts/30-generics-manipulation/160-practice`  
   Analyze the user's solution for the generics practice lesson and record gaps and issues in `ai-relevance.md`.
 
-- `/review cource-plan`  
-  Read `cource-plan-for-ai.md`, fetch the actual course plan from the configured URL, and fully regenerate the `## План курса` section so that subsequent `/review` calls can correctly distinguish between current and future topics.
+- `/review cource-plan-for-ai`  
+  Read `cource-plan-for-ai.md`, take `plan-url` from the `## "ai-options"` ini block, fetch the actual course plan, and fully regenerate the `## "cource-plan"` section so that subsequent `/review` calls can correctly distinguish between current and future topics.
 
 - `/review guide`  
   Generate or refresh the `cursor-ai-usage.md` guide and ensure it is referenced from the root `readme.md`.

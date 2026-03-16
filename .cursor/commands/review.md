@@ -12,19 +12,19 @@ The `/review` command implements the following high‑level tasks:
 
 1. **Relevance check for a single lesson**
    - Use up‑to‑date documentation and examples (via MCP `user-context7` / `@context7`) to verify that the lesson content is still accurate and complete.
-   - Write a detailed report to `ai-relevance.md` in the lesson folder.
+   - Write a detailed report to `ai-review.md` in the lesson folder.
    - Add or update a collapsible `details` block in the root `readme.md` under the corresponding lesson entry in the `## Содержание` section.
 
 2. **Bulk relevance check for all lessons**
    - Iterate over all lessons listed in the `## Содержание` section of the root `readme.md`.
-   - For each lesson, perform the same workflow as for a single lesson, updating both the per‑lesson `ai-relevance.md` and the relevant `details` block in `readme.md`.
+   - For each lesson, perform the same workflow as for a single lesson, updating both the per‑lesson `ai-review.md` and the relevant `details` block in `readme.md`.
 
 3. **Solution quality analysis**
    - For a given lesson, analyze the user's solution:
      - highlight knowledge gaps;
      - identify weak or non‑idiomatic implementations;
      - recommend concrete improvements and next study steps.
-   - Record this analysis in `ai-relevance.md` (in a dedicated section) or in a separate `lesson-review` section, depending on the lesson structure.
+   - Record this analysis in `ai-review.md` (in a dedicated section) or in a separate `lesson-review` section, depending on the lesson structure.
 
 4. **Usage guide for Cursor AI**
    - Generate and maintain a concise guide that explains how to use Cursor AI effectively in this repository (including `/van`, `/plan`, `/build`, `/review` and other commands).
@@ -51,7 +51,7 @@ The `/review` command implements the following high‑level tasks:
      - For each key topic, query the external documentation and examples:
        - identify breaking changes, deprecated patterns, or new best practices;
        - detect missing but important subtopics.
-  3. **Write or update `lesson-path/ai-relevance.md`**
+  3. **Write or update `lesson-path/ai-review.md`**
      - Create the file if it does not exist.
      - At minimum, include:
        - date of the check;
@@ -67,7 +67,7 @@ The `/review` command implements the following high‑level tasks:
        <details>
            <summary>ai-relevance</summary>
 
-           [ai-relevance.md](<lesson-path>/ai-relevance.md)
+           [ai-review.md](<lesson-path>/ai-review.md)
            ```text
            Дата проверки: <YYYY-MM-DD>
            Статус: <Актуально | Частично устарело | Устарело>
@@ -76,7 +76,7 @@ The `/review` command implements the following high‑level tasks:
        ```
      - If the block does not exist, create it in this exact format, preserving the surrounding indentation style.
      - If the block already exists, only update:
-       - the link to `ai-relevance.md` (if the path has changed);
+       - the link to `ai-review.md` (if the path has changed);
        - the `Дата проверки` line;
        - the `Статус` line.
 
@@ -111,7 +111,7 @@ The `/review` command implements the following high‑level tasks:
        - missing required features for this lesson;
        - non‑idiomatic or unsafe TypeScript or React usage;
        - unnecessary complexity or code smells.
-  3. Write analysis into `lesson-path/ai-relevance.md`:
+  3. Write analysis into `lesson-path/ai-review.md`:
      - Ensure there is a single top‑level section `## Анализ вашего решения` that acts as a chronological log of all analysis runs for this lesson.
      - For **each invocation** of `/review analyze <lesson-path>`:
        - insert a **new sub‑section at the top** of `## Анализ вашего решения` with the heading:
@@ -143,7 +143,7 @@ The `/review` command implements the following high‑level tasks:
          1. ...
          ```
          where:
-         - `"<OLD-DATE> п.N"` is a reference to item `N` from an earlier `### Дата: ...` section in the same `ai-relevance.md` file.
+         - `"<OLD-DATE> п.N"` is a reference to item `N` from an earlier `### Дата: ...` section in the same `ai-review.md` file.
      - When constructing `Выполнено` and `"@TODO`:
        - parse all earlier `### Дата: ...` sections within `## Анализ вашего решения`;
        - for each previously suggested item, determine whether the current solution code now satisfies it:
@@ -228,7 +228,7 @@ The `/review` command implements the following high‑level tasks:
        1. Добавить свойству "password" модификатор доступа "protected".
        2. Добавить тип данных для свойства "birthday".
        ```
-  4. Keep the short `<details>` block in `readme.md` focused on the overall status and date; deep analysis remains only in `ai-relevance.md`.
+  4. Keep the short `<details>` block in `readme.md` focused on the overall status and date; deep analysis remains only in `ai-review.md`.
 
 ### `/review cource-plan-for-ai`
 
@@ -273,7 +273,7 @@ The `/review` command implements the following high‑level tasks:
 
 ## Status Values
 
-The `Статус` line in the `ai-relevance` block and in `ai-relevance.md` should use one of the following values:
+The `Статус` line in the `ai-relevance` block and in `ai-review.md` should use one of the following values:
 
 - `Актуально`
 - `Частично устарело`

@@ -255,7 +255,7 @@
       * <details>
           <summary>ai-relevance</summary>
 
-          [ai-relevance.md](20-ts/40-classes/100-static/ai-relevance.md)
+          [ai-review.md](20-ts/40-classes/100-static/ai-review.md)
           ```text
           Дата проверки: 2026-03-16
           Статус: Актуально
@@ -267,7 +267,7 @@
       * <details>
           <summary>ai-relevance</summary>
 
-          [ai-relevance.md](20-ts/40-classes/110-this-and-typed-context/ai-relevance.md)
+          [ai-review.md](20-ts/40-classes/110-this-and-typed-context/ai-review.md)
           ```text
           Дата проверки: 2026-03-16
           Статус: Актуально
@@ -279,7 +279,7 @@
       * <details>
           <summary>ai-relevance</summary>
 
-          [ai-relevance.md](20-ts/40-classes/120-abstract/ai-relevance.md)
+          [ai-review.md](20-ts/40-classes/120-abstract/ai-review.md)
           ```text
           Дата проверки: 2026-03-16
           Статус: Актуально
